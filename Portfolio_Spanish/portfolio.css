@@ -1,0 +1,184 @@
+body {
+    font-family:kufam;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:50px;
+    border-radius:4px;
+   
+    transition: all 0.3s linear;
+}
+
+
+.zone h1{
+    font-size: 100px;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    P {
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    .box {
+        background-color: #444;
+        /*padding: 5px;*/
+        margin: 5px;
+    }
+
+    .box > img {
+    width: 100%;
+    }
+
+
+
+    .zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:30px;
+    border-radius:4px;
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+
+
+}
+
+.push {
+    margin-left: auto;
+}
+
+
+
+
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+    
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show heigh: auto*/
+    height: 20vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-5px;
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: flex;
+    /*display: grid;*/
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+    margin-top: -40px;
+}
+
+.box {
+    background-color: #444;
+    padding: 20px;
+    margin: 20px;
+    display:flex;
+}
+
+.box > img {
+    width: 100%;
+}
+.link {
+    display:flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    width:100vw;
+    background: rgba(0,0,0,200);
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green {
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+
+    body {
+      background-image: url('Sunset.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+
+/***********************************************************************
+ *  Mobile responsive
+ **********************************************************************/

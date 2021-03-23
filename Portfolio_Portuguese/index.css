@@ -1,0 +1,77 @@
+/* Selector {
+	property: value;
+
+} */
+body {
+  background-image: url('Strength.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+
+ a{
+      color:white;
+  }
+
+
+
+h1{
+	font-size:40px;
+
+}
+
+h1 {text-align: center; margin-top: 53px;}
+
+
+h2{
+	font-size:25px;
+}
+h2{
+	text-align: center;
+}
+
+figure {
+	display: inline-block;
+	
+}
+
+.img {
+	position:fixed;
+	margin-left: 110px;
+	bottom: 100px;
+  	left: 50;
+}
+
+/***********************************************************************
+ *  Mobile responsive
+ **********************************************************************/
+ @media only screen and (max-width: 600px) {
+
+ 	P {
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+     h2 {
+        font-size: 4vw;
+        margin-top:-10px;
+    }
+
+
+    .img {
+	position:fixed;
+	margin-left: 20px;
+	bottom: 100px;
+  	left: 0px;
+}
+
+    
+
+
+
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <title>Contact information</title>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+ <style type="text/css">
+ @import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+
+ body {
+      background-color: #EBF4FA;
+      /*background-image: url('./project-2/img/air-mail.png');*/
+      background-repeat: no-repeat;
+      /*background-attachment: fixed;*/
+      background-size: auto 30%;
+      background-position: bottom right;
+
+    }
+
+
+ #header
+ {
+ padding:10px;background:blue;color:#EDEDED;text-allign:center;width:100%;font-size:25px;
+ }
+ .afrikaans,.english
+ {
+ /*position:absolute;*/
+ top:100px;
+ left:20px;font-size:16px;
+ display:none;
+ }
+
+
+ textarea {
+        resize:none;
+        width:600px;
+        height:80px;
+    }
+
+    a {
+        color:white;
+        top:0px;
+    }
+
+
+
+ </style>
+ <script type="text/javascript">
+ $(document).ready(function()
+ {
+     $('.english').fadeIn(1000);
+     $('.afrikaans').fadeOut(500);
+ });
+
+
+ function changeLang()
+ {
+     var language = document.getElementById('change').innerHTML;
+     if(language === "Afrikaans")
+     {
+         $('.english').fadeOut(500);
+         $('.afrikaans').fadeIn(1000);
+         document.getElementById('change').innerHTML = "English";
+     }
+     else if(language === "English")
+     {
+         $('.afrikaans').fadeOut(500);
+         $('.english').fadeIn(1000);
+         document.getElementById('change').innerHTML = "Afrikaans";
+     }
+
+ }
+ </script>
+ </head>
+
+ <body>
+
+
+<div id="header"><font style="font-size:18px;color:#FFFFFF;">&nbsp;&nbsp;</font><span id="change" style="cursor:pointer;" onclick="changeLang();"></span></div>
+
+
+
+
+ <!-- <div id="header"><font style="font-size:18px;color:#FFFFFF;">Switch to : &nbsp;&nbsp;</font><span id="change" style="cursor:pointer;" onclick="changeLang();">Afrikaans</span></div> -->
+
+
+
+
+ 
+
+ <div class="english">
+
+    <NAV style="color:white; position:sticky; top:-30px; margin-right: 43px;margin-top: -50px;">
+        <P ALIGN="RIGHT">
+        <a class="btn btn-primary" href="index.html" role="button">Home</a> |
+        <a class="btn btn-primary" href="profile.html" role="button">Profile</a> |
+        <a class="btn btn-primary" href="resume.html" role="button">CV</a> |
+        <a class="btn btn-primary" href="portfolio2.html" role="button">Portfolio</a> |
+        <a class="btn btn-primary" href="contact.html" role="button">Contact</a>
+    </NAV>
+
+    <select style="position:fixed; margin-top:-32px;margin-left:22px;" id="dropdown">
+        <option value="index en"> English</option>
+        <option value="index es"> Español</option>
+        <option value="index pt"> Português</option>
+    </select>
+
+   <!--  <p>This is the paragraph in English</p> -->
+            <h2 style="margin-left:120px; margin-top: 110px;">E-mail to Fernando:</h2>
+
+        <form action="https://formspree.io/f/mzbknlan" method="POST" id = "my-form">
+
+            <div style="margin-left: 120px; margin-top: 60px;">
+            Name & Surname:<br>
+            <input type="text" name="Naam" size="30"><br>
+            E-mail:<br>
+            <input type="text" name="Pos" size="30"><br>
+            Subject:<br>
+            <input type="text" name="Onderwerp" size="30"><br>
+            Comment:<br>
+            <textarea type="text" name="Kommentaar" size="25"></textarea><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            <!-- <input type="button" onclick="window.location.href='exit.html';" value="Exit" /> -->
+            </div>
+        </div>
+        </form>
+        <p id = "my-form-status" style=" margin-left: 531px;margin-top: -245px;"></p>
+</div>
+
+ <div class="afrikaans">
+
+
+    <NAV style="color:white; position:sticky; top:-30px; margin-right: 43px;margin-top: -50px;">
+        <P ALIGN="RIGHT">
+        <a class="btn btn-primary" href="index.html" role="button">Tuis</a> |
+        <a class="btn btn-primary" href="profile.html" role="button">Profiel</a> |
+        <a class="btn btn-primary" href="resume.html" role="button">Hervat</a> |
+        <a class="btn btn-primary" href="portfolio2.html" role="button">Portefeulje</a> |
+        <a class="btn btn-primary" href="contact.html" role="button">Kontak</a>
+    </NAV>
+
+
+    <select style="margin-top:107px;margin-left:22px;" id="dropdown">
+        <option value="index en"> English</option>
+        <option value="index es"> Spanish</option>
+        <option value="index pt"> Portuguese</option>
+    </select>
+
+
+
+
+
+   <!--  <p>ಈ ಪ್ಯಾರಗ್ರಾಫ್ ಕನ್ನಡದಲ್ಲಿ ಇದೆ.</p> -->
+            <h2 style="margin-left:120px; margin-top: 0px;">Stuur 'n e-pos aan Fernando:</h2>
+
+        <form action="mailto:f_cerda@hotmail.com" method="post" enctype="text/plain">
+
+            <div style="margin-left: 120px; margin-top: 60px;">
+            Naam & Van:<br>
+            <input type="text" name="Naam" size="30"><br>
+            E-pos:<br>
+            <input type="text" name="Pos" size="30"><br>
+            Onderwerp:<br>
+            <input type="text" name="Onderwerp" size="30"><br>
+            Kommentaar:<br>
+            <textarea type="text" name="Kommentaar" size="25"></textarea><br><br>
+            <input type="submit" value="Stuur">
+            <input type="reset" value="Terugstel">
+            <input type="button" onclick="window.location.href='uitgang.html';" value="Uitgang" />
+            </div>
+        </div>
+        </form>
+
+
+</div>
+
+  
+
+
+ 
+ </body>
+ <script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+ <script src="../index.js"></script>
+ </html>

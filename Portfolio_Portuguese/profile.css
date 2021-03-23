@@ -1,0 +1,142 @@
+body {
+      background-image: url('Sunset.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .fer {
+      position: center;
+    }
+
+    a{
+      color:white;
+    }
+
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    video, iframe{
+      width: 0;
+      max-width:20rem;
+      border-radius: 10%;
+      margin: 50px;
+    }
+
+
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transition:all 0.3s linear;
+          font-size: 18px;
+          margin-top:120px;
+
+    }
+
+
+    .zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:50px;
+    border-radius:4px;
+   
+    transition: all 0.3s linear;
+    }
+
+
+
+
+
+
+
+    .block {
+        width: 300px;
+    }
+
+
+    .zone:hover {
+                -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+                -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+                -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+                box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    }
+
+    .container {
+    /*show heigh: auto*/
+    margin-top:-30px;
+    height: 10vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 50px;
+      height: 100%; /* Should be removed. Only for demonstration */
+    }
+
+    .frame {
+        
+        border:1px solid black;
+
+
+
+    }
+
+
+
+/***********************************************************************
+ *  Mobile responsive
+ **********************************************************************/
+ @media only screen and (max-width: 600px) {
+
+p {
+        font-size: 4vw;
+    }
+
+
+    .zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:30px;
+    border-radius:4px;
+   
+    transition: all 0.3s linear;
+    }
+
+
+    .column {
+     /* float: left;*/
+      width: 100%;
+      padding: 20px;
+      /*height: 480px; *//* Should be removed. Only for demonstration */
+    }
+
+
+
+
+   
+
+
+  }
+
+
+
+
