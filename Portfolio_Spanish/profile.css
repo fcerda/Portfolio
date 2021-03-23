@@ -128,7 +128,10 @@ p {
       padding: 20px;
       /*height: 480px; *//* Should be removed. Only for demonstration */
     }
-
+    
+    .index{
+      top:45px;
+    }
 
 
 
