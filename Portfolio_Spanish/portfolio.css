@@ -186,5 +186,8 @@ footer {
     .index {
         top:90px;
       }
+      .grid-wrapper {
+          display:grid;
+      }
 
  }
