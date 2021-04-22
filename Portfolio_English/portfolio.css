@@ -189,6 +189,7 @@ footer {
         top:100px;
       }
     .grid-wrapper {
+        margin:-20px;
         display:grid;
     }
  }
