@@ -3,18 +3,20 @@
 
 } */
 body {
-  background-image: url('Strength.PNG');
+  background-image: url('Marine.PNG');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
 }
 
 
  a{
       color:white;
   }
-
+  a:visited{color:white}
+  a{color:white}
+  a:hover{color:magenta}
 
 
 h1{
@@ -42,6 +44,10 @@ figure {
 	margin-left: 110px;
 	bottom: 100px;
   	left: 50;
+    color:white;
+}
+.change {
+  filter: invert(1);
 }
 
 /***********************************************************************

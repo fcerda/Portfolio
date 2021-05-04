@@ -1,5 +1,5 @@
 body {
-      background-image: url('Sunset.png');
+      background-image: url('Marine.PNG');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -12,6 +12,9 @@ body {
     a{
       color:white;
     }
+    a:visited{color:white}
+    a{color:white}
+    a:hover{color:magenta}
 
     .row{
       display: flex;
@@ -24,7 +27,7 @@ body {
       width: 0;
       max-width:20rem;
       border-radius: 10%;
-      margin: 50px;
+      margin: 90px;
     }
 
 
@@ -35,7 +38,7 @@ body {
         justify-content: center;
         transition:all 0.3s linear;
           font-size: 18px;
-          margin-top:120px;
+          margin-top:85px;
 
     }
 
