@@ -53,7 +53,15 @@ figure {
 /***********************************************************************
  *  Mobile responsive
  **********************************************************************/
+ @media only screen and (max-width: 406px) {
+  body{
+    background-color: #000036;
+    background-size: auto;
+    background-position: -452px -31px;
+   }
+  }
  @media only screen and (max-width: 600px) {
+   
 
  	P {
         font-size: 4vw;
