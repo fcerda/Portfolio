@@ -62,7 +62,7 @@ figure {
    }
 
    .img {
-    /* margin-bottom: -100px; */
+    margin-bottom: 340px; 
     position:fixed;
     margin-left: 20px;
     bottom: 100px;
