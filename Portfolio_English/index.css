@@ -78,10 +78,11 @@ figure {
 
 
     .img {
-	position:fixed;
-	margin-left: 20px;
-	bottom: 100px;
-  	left: 0px;
+      margin-bottom: -60px;
+	    position:fixed;
+	    margin-left: 20px;
+	    bottom: 100px;
+  	  left: 0px;
 }
 
     .index{
