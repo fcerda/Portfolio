@@ -33,3 +33,20 @@ p {
   from{border-right-color: rgba(0,255,0,.75);}
   to{border-right-color: transparent;}
 }
+
+body {
+  background-image: url('Marine.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media only screen and (max-width: 406px) {
+  body{
+    background-color: #000036;
+    background-size: auto;
+    background-position: -452px -31px;
+   }
+  }
