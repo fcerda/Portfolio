@@ -55,6 +55,21 @@ figure {
 /***********************************************************************
  *  Mobile responsive
  **********************************************************************/
+ @media only screen and (max-width: 406px) {
+  body{
+    background-color: #000036;
+    background-size: auto;
+    background-position: -452px -31px;
+   }
+
+   .img {
+     margin-bottom: -60px;
+    position:fixed;
+    margin-left: 20px;
+    bottom: 100px;
+    left: 0px;
+    }
+  }
  @media only screen and (max-width: 600px) {
 
  	P {
