@@ -62,7 +62,7 @@ figure {
    }
 
    .img {
-    margin-bottom: 320px; 
+    /* margin-bottom: 320px;  */
     position:fixed;
     margin-left: 20px;
     bottom: 100px;
@@ -70,13 +70,7 @@ figure {
     }
   }
  @media only screen and (max-width: 600px) {
-   .img{
-    top: 25px;
-    position: fixed;
-    margin-left: -40px;
-    bottom: 100px;
-    left: 0px;
-   }
+ 
 
  	P {
         font-size: 4vw;
