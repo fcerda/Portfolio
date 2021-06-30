@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 
 body {
+  text-align:center;
+  margin-left:30%; 
+  margin-top:10px;
   padding: 40px;
   background-color: #121212;
   background-image: url("Marine.PNG");
