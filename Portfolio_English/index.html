@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
-<title>Santander</title>
-<link rel="stylesheet" type="text/css" href="index.css">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
+    <title>Santander</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
 
+  <body>
+    <nav>
+      <select
+      class="index"
+      id="dropdown"
+    >
+      <option value="index en">English</option>
+      <option value="index es">Espa&ntilde;ol</option>
+      <option value="index pt">Portugu&ecirc;s</option>
+    </select>
+      <div>
+        <a href="index.html">Home</a> | <a href="profile.html">Profile</a> |
+        <a href="resume.html">CV</a> | <a href="contact.html">Contact</a>
+      </div>
+    </nav>
 
-</head>
+    <h1>Fernando A. Cerda</h1>
+    <h2>Geophysical Engineer.</h2>
 
-<body style="margin:10px 10px 30px 30px">
+    
 
-<NAV style="color:white;position:sticky; top:25px; margin-right:30px;font-size:20px;">
-      <P ALIGN="RIGHT">
-      <a href="index.html">Home</a> |
-      <a href="profile.html">Profile</a> |
-      <a href="resume.html">CV</a> |
-      <!-- <a href="portfolio2.html">Portfolio</a> | -->
-      <a href="contact.html">Contact</a> </P>
-</NAV>
+    <div class="link_container">
+      <figure>
+        <a href="https://github.com/fcerda" target="_blank"
+          ><img
+            class="change link_image"
+            src="../img/github.png"
+            alt="Github-logo"
+        /></a>
+        <figcaption><b>Github.</b></figcaption>
+      </figure>
 
+      <figure>
+        <a href="https://www.linkedin.com/in/fernando-cerda/" target="_blank"
+          ><img
+          class="link_image"
+            src="../img/linkedin.ico"
+            alt="Linkedin-logo"
+        /></a>
+        <figcaption><b>Linkedin</b></figcaption>
+      </figure>
+    </div>
 
-
-<h1 style="color:white;">Fernando A. Cerda</h1>
-<h2 style="color:white;margin-top:-20px;">Geophysical Engineer.</h2>
-
-<select class="index" style="position:fixed;margin-top:-240px;" id="dropdown">
-  <option value="index en"> English</option>
-  <option value="index es"> Espa&ntilde;ol</option>
-  <option value="index pt"> Portugu&ecirc;s</option>
-</select>
-
-<div class=img>
-<figure>
-<a href="https://github.com/fcerda" target="_blank"><img class="change" src="../img/github.png" alt="Github-logo" style="width:42px;height:42px;"></a>
-<figcaption><b>Github.</b></figcaption>
-</figure>
-
-<figure>
-<a href="https://www.linkedin.com/in/fernando-cerda/" target="_blank"><img src="../img/linkedin.ico" alt="Linkedin-logo" style="width:42px;height:42px;"></a>
-<figcaption><b>Linkedin</b></figcaption>
-</figure>
-
-</div>
-
-<scripts>
+    <scripts>
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -61,5 +70,6 @@
         crossorigin="anonymous"
       ></script>
     </scripts>
-</body>
-<script src="../index.js"></script>
+  </body>
+  <script src="../index.js"></script>
+</html>

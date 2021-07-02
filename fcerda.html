@@ -1,53 +1,32 @@
 <!DOCTYPE html>
 <html>
-<style>
+  <head>
+    <title>Introduction</title>
+    <link rel="stylesheet" type="text/css" href="fcerda.css" />
+  </head>
+  <script src="loading.js"></script>
+ 
+  <body>
+    <div id="video">
+      <video
+        autoplay
+        height="100%"
+        width="100%"
+        onloadeddata="this.play()"
+        playsinline
+        muted
+        poster=""
+      >
+        <source src="./img/pgs.mp4" type="video/mp4" />
+      </video>
+      <p><span id="timer"></span></p>
+    </div>
 
-body {
-  background-image: url('Marine.PNG');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /* background-position: center; */
-}
-
-p.ex1 {
-  font-size: 32px;
-}
-</style>
-
-<head>
-	<title>Introduction</title>
-	<link rel="stylesheet" type="text/css" href="creation.css">
-</head>
-<script type="text/javascript">
-  var count = 5;
-  var redirect = "./Portfolio_English/index.html";
-  setTimeout(() => {
-    let video = document.getElementById("video")
-    video.style.visibility = "hidden"
-    setTimeout(() => {
-    window.location.href = redirect;
-  }, 7000);
-  }, 18000);
-</script>
-<body>
-
-  <div id=video style="background:black; position: absolute; top:0; left:0; z-index: 99; width: 100%; height: 100%">
-    <video autoplay height="100%" width="100%" onloadeddata="this.play()" playsinline muted poster="" >
-      <source src="./img/pgs.mp4" type="video/mp4"/>
-    </video>
-    <p><span id="timer"></span></p>
-  </div>
-
-
-
-<div style="text-align:center;margin-left:30%; margin-top:100px;">
-    <p style="color:white;">Welcome to my page</p>
-    <p style="color:white;">Bien venidos a mi pagina</p>
-    <p class="ex1" style="color:white;">Bem vindo a minha pagina</p>
-    <!-- <p>Your submission has been received.</p> -->
-    <p><span id="timer"></span></p>
-</div>
-
-</body>
+    <!-- <div class="welcome-typing"> -->
+      
+      <p>Welcome to my page</p>
+      <p>Bien venidos a mi pagina</p>
+      <p>Bem vindo a minha pagina</p>
+    </div>
+  </body>
 </html>
