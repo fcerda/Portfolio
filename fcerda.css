@@ -55,7 +55,11 @@ p {
   overflow: hidden;
   font-family: "Source Code Pro", monospace;
   font-size: 28px;
+<<<<<<< HEAD
   color: rgba(255, 255, 255);
+=======
+  color: rgba(255, 255, 255, 0.7);
+>>>>>>> 2f7536b16fe872c8fbca64f986d8fd6b6c40fd4b
   animation: animated-text 4s steps(29, end) 20s 1 normal both,
     animated-cursor 600ms steps(29, end) 19s infinite;
 }
