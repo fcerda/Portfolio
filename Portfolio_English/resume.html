@@ -5,142 +5,43 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <style>
-      a:visited {
-        color: blue;
-      }
-      a {
-        color: blue;
-      }
-      a:hover {
-        color: white;
-      }
-
-      body {
-        font-family: Kufam;
-        color: #2c3531;
-        background-color: lightblue;
-        margin: 0px;
-      }
-      .timeline {
-        float: right;
-        color: #116466;
-      }
-
-      figure {
-        display: inline-block;
-      }
-
-      .mak {
-        position: fixed;
-        margin-left: 0px;
-        bottom: 50px;
-        left: 0;
-        padding: 0 100px;
-      }
-
-      P {
-        display: block;
-        /*padding: 8px;
-                    background-color: #E7D4C0;
-                    float: right;*/
-      }
-
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .mark1 img {
-        padding: 20px;
-        background-color: white;
-      }
-      .row {
-        width: 100%;
-        /*display: flex;*/
-        flex-direction: row;
-        justify-content: center;
-        transition: all 0.3s linear;
-        /*font-size: 18px;*/
-        /*margin-top:80px;*/
-        padding: 0 100px;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      .column {
-        float: left;
-        width: 33.33%;
-        padding: 40px;
-        height: 100%; /* Should be removed. Only for demonstration */
-      }
-
-      .frame {
-        border: 0px solid black;
-      }
-
-      @media only screen and (max-width: 600px) {
-        P {
-          font-size: 4vw;
-        }
-
-        h1 {
-          font-size: 8vw;
-        }
-        .index {
-<<<<<<< HEAD
-          top: 168px;
-          position: fixed; margin-top: -130px; margin-left: 31px;
-=======
-          top: 245px;
->>>>>>> 2f7536b16fe872c8fbca64f986d8fd6b6c40fd4b
-        }
-        .space {
-          padding-left: 0px;
-          padding-right: 0px;
-        }
-<<<<<<< HEAD
-      
-=======
->>>>>>> 2f7536b16fe872c8fbca64f986d8fd6b6c40fd4b
-      }
-    </style>
+    <link rel="stylesheet" href="resume.css" />
     <!-- CSS only -->
   </head>
-  <body style="margin: 0px 0px 30px 0px">
-    <nav
-      style="position: sticky; top: 25px; margin-right: 25px; font-size: 20px"
-    >
-      <p align="RIGHT">
-        <a href="index.html">Home</a> | <a href="profile.html">Profile</a> |
-        <a href="resume.html">CV</a> |
-        <!-- <a href="portfolio2.html">Portfolio</a> | -->
-        <a href="contact.html">Contact</a>
-      </p>
+  <body>
+    <nav>
+      <div class="navdiv">
+        <select id="dropdown">
+          <option value="resume en">English</option>
+          <option value="resume es">Espa&ntilde;ol</option>
+          <option value="resume pt">Portugu&ecirc;s</option>
+        </select>
+        <div class="navlink">
+          <a href="index.html">Home</a> | <a href="profile.html">Profile</a> |
+          <a href="resume.html">CV</a> |
+          <!-- <a href="portfolio2.html">Portfolio</a> | -->
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
     </nav>
 
     <!-- <div style="background-color: #E7D4C0;
         color:black;"> -->
-    <div style="color: black">
-      <h1><center>Fernando Cerda - MBA, MSc.</center></h1>
+    <div>
+      <h1>Fernando Cerda - MBA, MSc.</h1>
       <div>
-        <center>
-          <h3>
-            E-mail :
-            <th>
-              <a href="mailto:f_cerda@hotmail.com"> f_cerda@hotmail.com</a> -
-              Phone :<a href="skype:fcerda0336?call"> +1 (403) 630-9499</a> -
-              LinkedIn :<a
-                href="https://www.linkedin.com/in/fernando-cerda"
-                target="_blank"
-                >www.linkedin.com</a
-              >
-            </th>
-          </h3>
-        </center>
+        <h3>
+          E-mail :
+          <th>
+            <a href="mailto:f_cerda@hotmail.com"> f_cerda@hotmail.com</a> -
+            Phone :<a href="skype:fcerda0336?call"> +1 (403) 630-9499</a> -
+            LinkedIn :<a
+              href="https://www.linkedin.com/in/fernando-cerda"
+              target="_blank"
+              >www.linkedin.com</a
+            >
+          </th>
+        </h3>
       </div>
       <hr
         style="
@@ -159,17 +60,8 @@
         "
       />
     </div>
-    <select
-      class="index"
-      style="position: fixed; margin-top: -151px; margin-left: 31px"
-      id="dropdown"
-    >
-      <option value="resume en">English</option>
-      <option value="resume es">Espa&ntilde;ol</option>
-      <option value="resume pt">Portugu&ecirc;s</option>
-    </select>
 
-    <h3 style="margin: 0"><center>PROFILE</center></h3>
+    <h3>PROFILE</h3>
 
     <div style="padding: 0px 40px; text-align: justify; font-size: 16px">
       Experienced professional with strong understanding of performance
@@ -184,50 +76,11 @@
       style="height: 2px; border-width: 0; color: gray; background-color: gray"
     />
 
-    <!-- <h3 style="margin:0;"><center>SELECTED ACCOMPLISHMENTS</center></h3>
 
-
-
-    <h3 id="project-management" style="margin-left:100px; margin-right: 100px;margin-top:0.5;margin-bottom:0;">Project Management</h3>
-        
-
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10; text-align: justify;">   Supervised and coordinated simultaneous operation increasing efficiency in operation turnaround, liasson with clients regarding project strategies.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Supervised and coordinated all aspect of the project planning starting from seismic data acquisition to data processing.</li>
-        <li style="margin-bottom:10px; text-align: justify;">  Coordinated services in different region (Alaska, Gulf of Mexico, North Sea, Latin America) for the preparation, design and optimization of data acquisition and geometry. </li>
-        <li style="margin-bottom:10px; text-align: justify;">  Primary contact for any inquiries regarding expert knowledge and understanding of the economic implications of any decision regarding data acquisition.   </li>
-    </ul> -->
-
-    <!--    <h3 style="margin-left:100px; margin-bottom:0; margin-right:100px">Leadership & Training</h3>
-        
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10px; text-align: justify;">   Provided training on M & E and data analysis tools and evaluation of data quality, to track the progress of all component of the project.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Participated in all aspect of project end providing leadership for effective planning including assisting in developing of data collection tools.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Lead on the development, execution and evaluation of regional studies in conjunction with other service companies in Calgary. </li>
-    </ul>
-
-
-        <h3 style="margin-left:100px; margin-bottom:0; margin-right:100px">Data analysis and evaluation</h3>
-        
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10px; text-align: justify;">   Assisted in coordinating across different components of the project to ensure effective implementation of M & E work plan and targets throughout project implementation.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Assisted in the development of acquisition templates and proposed strategic ideas to optimize future projects.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Established and maintained feedback mechanisms for M & E results within all components of the project.</li>
-    </ul>
- -->
-    <!-- 
-        <h3 style="margin-left:100px; margin-bottom:0;">Technical Skills</h3>
-        
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10px; text-align: justify;">   Worked with several packages and programming software such as SAS, R, Rcmdr. Access, DHIS2 for database in windows and Linux system.</li> 
-    </ul> -->
-
-    <h3 style="margin-bottom: 10px"><center>TECHNICAL SKILLS</center></h3>
-    <div class="row frame" style="padding: 20px">
+    <h3>TECHNICAL SKILLS</h3>
+    <div class="row frame">
       <div class="column frame">
-        <center>
-          <h3 style="margin-top: -30px">Programming Languages</h3>
-        </center>
+        <h3 style="margin-top: -30px">Programming Languages</h3>
 
         <p style="text-align: center">MATLAB / R / Python/ SAS.</p>
 
@@ -239,7 +92,7 @@
       </div>
 
       <div class="column frame">
-        <center><h3 style="margin-top: -30px">Reservoir Analysis</h3></center>
+        <h3 style="margin-top: -30px">Reservoir Analysis</h3>
 
         <p style="text-align: center">AVO/Rock Physics Modeling</p>
 
@@ -251,7 +104,7 @@
       </div>
 
       <div class="column frame">
-        <center><h3 style="margin-top: -30px">Data Acquisition</h3></center>
+        <h3 style="margin-top: -30px">Data Acquisition</h3>
 
         <p style="text-align: center">Seismic Acquisition</p>
 
@@ -263,305 +116,292 @@
       </div>
     </div>
 
-    <h3 style="margin-bottom: 10px">
-      <center>PROFESSIONAL EXPERIENCE</center>
-    </h3>
+    <h3 style="margin-bottom: 10px">PROFESSIONAL EXPERIENCE</h3>
 
-    <div class="mark">
-      <center>
-        <figure>
-          <a href="https://care.ca/" target="_blank"
-            ><img
-              src="../img/CUSO.png"
-              alt="Cuso-Care-logo"
-              style="width: 192px; height: 92px"
-          /></a>
-          <br />
-          <figcaption>
-            <center><b>CARE Canada. 2019 - 2021</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Monitoring and Evaluation Adviser</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Maxixe, Inhambane, Mozambique</b></center>
-          </figcaption>
-        </figure>
-        <ul class="space" style="margin-left: 40px; margin-right: 40px">
-          <li style="margin-bottom: 10; text-align: justify">
-            Participated in all aspect of project end planning, including
-            assisting in developing data collection tools and methods,
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Assisted in coordinating across different components of the project
-            to ensure effective implementation of M & E work plan and targets
-            throughout project implementation.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Training on M & E tools, and evaluation of data quality, tracking
-            the progress of all component of the project, promoting a culture of
-            interactive learning.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Assisted in the development of acquisition templates and proposed
-            strategy ideas to optimize future projects, performing parameter
-            selection and calibration of the inputs to the building model using
-            visualization techniques.
-          </li>
-        </ul>
-
-        <figure>
-          <a href="https://www.repsol.us/en/index.cshtml" target="_blank"
-            ><img
-              src="../img/repsol.png"
-              alt="Repsol-logo-logo"
-              style="width: 192px; height: 92px" /></a
-          ><br />
-          <figcaption>
-            <center><b>Repsol Oil and Gas. 2011 - 2014</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Senior Geophysicist - Seismic Acquisition</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>The Woodlands, Texas, USA</b></center>
-          </figcaption>
-        </figure>
-        <ul class="space" style="margin-left: 40px; margin-right: 40px">
-          <li style="margin-bottom: 10px; text-align: justify">
-            Coordinated services in Alaska, Gulf of Mexico, North Sea, and South
-            America. Preparation, design, and optimization of 2D/3D seismic data
-            acquisition geometries as well as VSP and ocean bottom cable for all
-            Repsol stakeholders.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Tender preparation, advising and reporting to the exploration team
-            and stakeholders on seismic operations and data processing. Primary
-            contact for any inquiries regarding expert knowledge and
-            understanding of the economic implications of any decision regarding
-            seismic data acquisition.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Developed and oversaw the day to day seismic acquisition of projects
-            for all Repsol Stakeholders and facilitated discussion with
-            Operations and Data Processing groups, achieved more than 90%
-            success rate in all the acquisition programs.
-          </li>
-        </ul>
-
-        <figure>
-          <center>
-            <a href="https://www.pgs.com/" target="_blank"
-              ><img
-                src="../img/pgs.png"
-                alt="PGS-logo"
-                style="width: 92px; height: 128px"
-            /></a>
-          </center>
-          <br />
-          <figcaption>
-            <center><b>PGS -Petroleum Geo Services. 2010 - 2011</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Senior Geophysicist</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Weybridge, Surrey, UK</b></center>
-          </figcaption>
-        </figure>
-        <ul class="space" style="margin-left: 40px; margin-right: 40px">
-          <li style="margin-bottom: 10px; text-align: justify">
-            Integrated seismic interpretation using well logs, seismic
-            attributes to identify both lithology and hydrocarbon anomalies.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Performed stratigraphic interpretation using seismic, seeking subtle
-            traps in carbonate and clastic facies in the Eastern Mediterranean
-            Basin using data provided by Petroleum Geo-Services Ltd for new
-            venture developments.
-          </li>
-        </ul>
-
-        <figure>
-          <a href="https://www.slb.com/" target="_blank"
-            ><img
-              src="../img/slb.png"
-              alt="slb-logo"
-              style="width: 192px; height: 92px"
-          /></a>
-          <br />
-          <figcaption>
-            <center><b>Schlumberger - WesternGeco. 2008 - 2010</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Team Leader - Perth Processing Center</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Perth, W. Australia</b></center>
-          </figcaption>
-        </figure>
-        <ul class="space" style="margin-left: 40px; margin-right: 40px">
-          <li style="margin-bottom: 10px; text-align: justify">
-            Performed testing and provided parameter selection for seismic data
-            processing required for Multiple Attenuation, Noise attenuation
-            techniques, interpreted gather velocities required for for
-            migration, velocity model building and calculated residual moveouts
-            using H. Swan Methodology, Prestack and Poststack Time Migration.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Supervised and coordinated 3D Land and Marine Seismic Data
-            Processing for Multi-Client projects. Standardized processing flows
-            for noise attenuation, signal enhancement and multiple suppression
-            techniques which increased productivity by 20%.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Mentored field geophysicists on noise reduction techniques and
-            multiple attenuation and velocity interpretation using seismic
-            gathers.
-          </li>
-        </ul>
+    <div>
+      <figure>
+        <a href="https://care.ca/" target="_blank"
+          ><img
+            src="../img/CUSO.png"
+            alt="Cuso-Care-logo"
+            style="width: 192px; height: 92px"
+        /></a>
+        <br />
         <figcaption>
-          <center>
-            <b>Reservoir Analysis - Schlumberger - WesternGeco. 2001 - 2008</b>
-          </center>
+          <p class="bold">CARE Canada. 2019 - 2021</p>
         </figcaption>
         <figcaption>
-          <center><b>Houston, Texas, USA</b></center>
+          <p class="bold">Monitoring and Evaluation Adviser</p>
         </figcaption>
-        <ul class="space" style="margin-left: 40px; margin-right: 40px">
-          <li style="margin-bottom: 10px; text-align: justify">
-            Provided geological and geophysical studies for potential regional
-            projects in North and South America (WesternGeco Speck data -
-            Integrated Solution Group). Worked closely with R&D testing latest
-            technologies on time data processing and depth imaging, identified
-            opportunities for improvement and proposed
-            modifications/improvements for adaptation that resulted in higher
-            effectiveness for later versions.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Applied prestack seismic inversion to 2D and 3D seismic data, using
-            petrophysical analysis and well log correlation resulting in useful
-            reservoir properties adding value to Schlumberger resources.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Evaluated several prospects (Brazil and Argentina -Patagonia) using
-            seismic data, seismic impedance derived from inversion and
-            information from key wells in recommended areas of interest to
-            WesternGeco client support department which increased sales in more
-            than 20%.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Coach and mentor reservoir geophysicists on the understanding of
-            geophysical techniques and their limitations.
-          </li>
-          <li style="margin-bottom: 10px; text-align: justify">
-            Develop and maintain strong relationships with external geophysical
-            consultants and contractors.
-          </li>
-        </ul>
-      </center>
+        <figcaption>
+          <p class="bold">Maxixe, Inhambane, Mozambique</p>
+        </figcaption>
+      </figure>
+      <ul class="space">
+        <li style="margin-bottom: 10; text-align: justify">
+          Participated in all aspect of project end planning, including
+          assisting in developing data collection tools and methods,
+        </li>
+        <li>
+          Assisted in coordinating across different components of the project to
+          ensure effective implementation of M & E work plan and targets
+          throughout project implementation.
+        </li>
+        <li>
+          Training on M & E tools, and evaluation of data quality, tracking the
+          progress of all component of the project, promoting a culture of
+          interactive learning.
+        </li>
+        <li>
+          Assisted in the development of acquisition templates and proposed
+          strategy ideas to optimize future projects, performing parameter
+          selection and calibration of the inputs to the building model using
+          visualization techniques.
+        </li>
+      </ul>
+
+      <figure>
+        <a href="https://www.repsol.us/en/index.cshtml" target="_blank"
+          ><img
+            src="../img/repsol.png"
+            alt="Repsol-logo-logo"
+            style="width: 192px; height: 92px" /></a
+        ><br />
+        <figcaption>
+          <p class="bold">Repsol Oil and Gas. 2011 - 2014</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Senior Geophysicist - Seismic Acquisition</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">The Woodlands, Texas, USA</p>
+        </figcaption>
+      </figure>
+      <ul class="space">
+        <li>
+          Coordinated services in Alaska, Gulf of Mexico, North Sea, and South
+          America. Preparation, design, and optimization of 2D/3D seismic data
+          acquisition geometries as well as VSP and ocean bottom cable for all
+          Repsol stakeholders.
+        </li>
+        <li>
+          Tender preparation, advising and reporting to the exploration team and
+          stakeholders on seismic operations and data processing. Primary
+          contact for any inquiries regarding expert knowledge and understanding
+          of the economic implications of any decision regarding seismic data
+          acquisition.
+        </li>
+        <li>
+          Developed and oversaw the day to day seismic acquisition of projects
+          for all Repsol Stakeholders and facilitated discussion with Operations
+          and Data Processing groups, achieved more than 90% success rate in all
+          the acquisition programs.
+        </li>
+      </ul>
+
+      <figure>
+        <a href="https://www.pgs.com/" target="_blank"
+          ><img
+            src="../img/pgs.png"
+            alt="PGS-logo"
+            style="width: 92px; height: 128px"
+        /></a>
+
+        <br />
+        <figcaption>
+          <p class="bold">PGS -Petroleum Geo Services. 2010 - 2011</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Senior Geophysicist</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Weybridge, Surrey, UK</p>
+        </figcaption>
+      </figure>
+      <ul class="space">
+        <li>
+          Integrated seismic interpretation using well logs, seismic attributes
+          to identify both lithology and hydrocarbon anomalies.
+        </li>
+        <li>
+          Performed stratigraphic interpretation using seismic, seeking subtle
+          traps in carbonate and clastic facies in the Eastern Mediterranean
+          Basin using data provided by Petroleum Geo-Services Ltd for new
+          venture developments.
+        </li>
+      </ul>
+
+      <figure>
+        <a href="https://www.slb.com/" target="_blank"
+          ><img
+            src="../img/slb.png"
+            alt="slb-logo"
+            style="width: 192px; height: 92px"
+        /></a>
+        <br />
+        <figcaption>
+          <p class="bold">Schlumberger - WesternGeco. 2008 - 2010</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Team Leader - Perth Processing Center</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Perth, W. Australia</p>
+        </figcaption>
+      </figure>
+      <ul class="space">
+        <li>
+          Performed testing and provided parameter selection for seismic data
+          processing required for Multiple Attenuation, Noise attenuation
+          techniques, interpreted gather velocities required for for migration,
+          velocity model building and calculated residual moveouts using H. Swan
+          Methodology, Prestack and Poststack Time Migration.
+        </li>
+        <li>
+          Supervised and coordinated 3D Land and Marine Seismic Data Processing
+          for Multi-Client projects. Standardized processing flows for noise
+          attenuation, signal enhancement and multiple suppression techniques
+          which increased productivity by 20%.
+        </li>
+        <li>
+          Mentored field geophysicists on noise reduction techniques and
+          multiple attenuation and velocity interpretation using seismic
+          gathers.
+        </li>
+      </ul>
+      <figcaption>
+        <p class="bold">
+          Reservoir Analysis - Schlumberger - WesternGeco. 2001 - 2008
+        </p>
+      </figcaption>
+      <figcaption>
+        <p class="bold">Houston, Texas, USA</p>
+      </figcaption>
+      <ul class="space">
+        <li>
+          Provided geological and geophysical studies for potential regional
+          projects in North and South America (WesternGeco Speck data -
+          Integrated Solution Group). Worked closely with R&D testing latest
+          technologies on time data processing and depth imaging, identified
+          opportunities for improvement and proposed modifications/improvements
+          for adaptation that resulted in higher effectiveness for later
+          versions.
+        </li>
+        <li>
+          Applied prestack seismic inversion to 2D and 3D seismic data, using
+          petrophysical analysis and well log correlation resulting in useful
+          reservoir properties adding value to Schlumberger resources.
+        </li>
+        <li>
+          Evaluated several prospects (Brazil and Argentina -Patagonia) using
+          seismic data, seismic impedance derived from inversion and information
+          from key wells in recommended areas of interest to WesternGeco client
+          support department which increased sales in more than 20%.
+        </li>
+        <li>
+          Coach and mentor reservoir geophysicists on the understanding of
+          geophysical techniques and their limitations.
+        </li>
+        <li>
+          Develop and maintain strong relationships with external geophysical
+          consultants and contractors.
+        </li>
+      </ul>
     </div>
 
     <br />
     <br />
 
-    <h3 style="margin-bottom: 10px"><center>EDUCATION</center></h3>
+    <h3 style="margin-bottom: 10px">EDUCATION</h3>
 
-    <div class="mark1">
-      <center>
-        <figure>
-          <a href="https://www.evolveu.ca/" target="_blank"
-            ><img
-              src="https://pbs.twimg.com/profile_images/956195352528371712/XYRz0_dl_400x400.jpg"
-              alt="Simply Easy Learning"
-              float:left;
-              width="120"
-              height="120"
-          /></a>
-          <br />
-          <figcaption>
-            <center><b>EvolveU.</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b>Full Stack Development.</b></center>
-          </figcaption>
-        </figure>
+    <div class="edulogo">
+      <figure>
+        <a href="https://www.evolveu.ca/" target="_blank"
+          ><img
+            src="https://pbs.twimg.com/profile_images/956195352528371712/XYRz0_dl_400x400.jpg"
+            alt="Simply Easy Learning"
+            float:left;
+            width="120"
+            height="120"
+        /></a>
+        <br />
+        <figcaption>
+          <p class="bold">EvolveU.</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Full Stack Development.</p>
+        </figcaption>
+      </figure>
 
-        <figure>
-          <a href="https://haskayne.ucalgary.ca/" target="_blank"
-            ><img
-              src="https://images.all-free-download.com/images/graphiclarge/university_of_calgary_87471.jpg"
-              alt="Simply Easy Learning"
-              float:left;
-              width="120"
-              height="120"
-          /></a>
-          <br />
-          <figcaption>
-            <center><b>University of Calgary.</b></center>
-          </figcaption>
-          <figcaption>
-            <center>
-              <b>Master's Degree in Business Administration (MBA).</b>
-            </center>
-          </figcaption>
-        </figure>
+      <figure>
+        <a href="https://haskayne.ucalgary.ca/" target="_blank"
+          ><img
+            src="https://images.all-free-download.com/images/graphiclarge/university_of_calgary_87471.jpg"
+            alt="Simply Easy Learning"
+            float:left;
+            width="120"
+            height="120"
+        /></a>
+        <br />
+        <figcaption>
+          <p class="bold">University of Calgary.</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Master's Degree in Business Administration (MBA).</p>
+        </figcaption>
+      </figure>
 
-        <figure>
-          <a href="https://www.jsg.utexas.edu/" target="_blank"
-            ><img
-              src="https://2012.igem.org/wiki/images/1/16/University_of_texas_logo.jpg"
-              alt="Simply Easy Learning"
-              width="120"
-              height="120"
-          /></a>
-          <br />
-          <figcaption>
-            <center><b> The University of Texas at Austin.</b></center>
-          </figcaption>
-          <figcaption>
-            <center>
-              <b> Master's Degree in Geological Sciences (MSc)</b>
-            </center>
-          </figcaption>
-        </figure>
+      <figure>
+        <a href="https://www.jsg.utexas.edu/" target="_blank"
+          ><img
+            src="https://2012.igem.org/wiki/images/1/16/University_of_texas_logo.jpg"
+            alt="Simply Easy Learning"
+            width="120"
+            height="120"
+        /></a>
+        <br />
+        <figcaption>
+          <p class="bold">The University of Texas at Austin.</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">Master's Degree in Geological Sciences (MSc)</p>
+        </figcaption>
+      </figure>
 
-        <figure>
-          <a href="https://www.mines.edu/" target="_blank"
-            ><img
-              src="../img/CSMLOGO.jpeg"
-              alt="Simply Easy Learning"
-              width="120"
-              height="120"
-          /></a>
-          <br />
-          <figcaption>
-            <center><b> Colorado School of Mines.</b></center>
-          </figcaption>
-          <figcaption>
-            <center><b> BSc. in Geophysical Engineering</b></center>
-          </figcaption>
-        </figure>
-      </center>
+      <figure>
+        <a href="https://www.mines.edu/" target="_blank"
+          ><img
+            src="../img/CSMLOGO.jpeg"
+            alt="Simply Easy Learning"
+            width="120"
+            height="120"
+        /></a>
+        <br />
+        <figcaption>
+          <p class="bold">Colorado School of Mines.</p>
+        </figcaption>
+        <figcaption>
+          <p class="bold">BSc. in Geophysical Engineering</p>
+        </figcaption>
+      </figure>
     </div>
 
-    <center><h3>Languages</h3></center>
+    <h3>Languages</h3>
     <div class="mark">
-      <center>
-        <!-- <ul> -->
-        <a><b>English</b></a> || <a><b>Spanish</b></a> ||
-        <a><b>Portuguese</b></a>
-        <!-- <a><b>Afrikaans</b></a> -->
-        <!-- </ul> -->
-      </center>
+      <!-- <ul> -->
+      <p class="bold">English</p>
+      ||
+      <p class="bold">Spanish</p>
+      ||
+      <p class="bold">Portuguese</p>
+      <!-- <a><p class="bold">Afrikaans</p></a> -->
+      <!-- </ul> -->
     </div>
     <br />
 
     <a href="index.html">
       <div class="mark">
-        <center>
-          <h3>Go Back to main page</h3>
-        </center>
+        <h3>Go Back to main page</h3>
       </div>
     </a>
   </body>

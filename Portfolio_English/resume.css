@@ -1,0 +1,135 @@
+body {
+  margin: 10px 10px 30px 30px;
+  color: black;
+  font-family: Kufam;
+  background-color: lightblue;
+}
+* {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: lightblue;
+  top: 0;
+  position: sticky;
+
+  padding-right: 30px;
+  font-size: 20px;
+}
+.navlink {
+  text-align: right;
+}
+.navdiv {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a:visited {
+  color: blue;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: white;
+}
+h1,h2,h3{
+    margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.timeline {
+  float: right;
+  color: #116466;
+}
+
+figure {
+  display: inline-block;
+}
+img{
+    margin-bottom: 10px;
+}
+
+.mark {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mark p{
+    margin:0 5px;
+}
+
+p {
+  display: block;
+ padding-bottom: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.edulogo img {
+  padding: 20px;
+  background-color: white;
+}
+.edulogo figure{
+    padding:0 20px;
+}
+.row {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 0.3s linear;
+  /*font-size: 18px;*/
+  /*margin-top:80px;*/
+  /* padding: 0 100px; */
+  /* padding: 20px */
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+.space{
+    padding:0 40px;
+}
+select{
+    max-height: 1.5em;
+  }
+li{
+    list-style-position: inside;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.frame {
+  border: 0px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  P {
+    font-size: 4vw;
+  }
+
+  h1 {
+    font-size: 8vw;
+  }
+  /* .index {
+    top: 168px;
+    position: fixed;
+    margin-top: -130px;
+    margin-left: 31px;
+  } */
+  .space {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

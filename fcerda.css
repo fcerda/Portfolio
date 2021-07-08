@@ -60,7 +60,10 @@ p {
   animation: animated-text 4s steps(29, end) 20s 1 normal both,
     animated-cursor 600ms steps(29, end) 19s infinite;
 }
-
+.cancelVideo{
+  animation: animated-text 4s steps(29, end) 3s 1 normal both,
+    animated-cursor 600ms steps(29, end) 2s infinite !important;
+}
 @media only screen and (max-width: 406px) {
   body {
     margin: 0;
