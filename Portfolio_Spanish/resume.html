@@ -1,203 +1,87 @@
 <html>
     <head>
         <title>Resume - Fernando Cerda</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-            <style>
-a:visited{color:blue}
-a{color:blue}
-a:hover{color:white}
-
-
-
-                body {
-                font-family: Kufam; 
-                color: #2c3531; 
-                background-color: lightblue; 
-                margin: 0px;
-            }
-            .timeline {
-                float: right; 
-                color: #116466;
-            }
-
-
-            figure {
-                display: inline-block;
-    
-            }
-
-
-            .mak {
-                position:fixed;
-                margin-left: 0px;
-                bottom: 50px;
-                left: 0;
-                padding:0 100px;
-            }
-
-            P {
-                    display: block;
-                    /*padding: 8px;
-                    background-color: #E7D4C0;
-                    float: right;*/
-            }
-
-            .row{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-
-            }
-            .mark1 img{padding: 20px; background-color: white;}
-            .row {
-                width: 100%;
-                /*display: flex;*/
-                flex-direction: row;
-                justify-content: center;
-                transition:all 0.3s linear;
-                /*font-size: 18px;*/
-                /*margin-top:80px;*/
-                padding:0 100px;
-
-            }
-
-
-
-
-             * {
-                box-sizing: border-box;
-            }
-
-            .column {
-                float: left;
-                width: 33.33%;
-                padding: 40px;
-                height: 100%; /* Should be removed. Only for demonstration */
-            }
-
-            .frame {
-        
-                border:0px solid black;
-
-
-
-            }
-
-
-
-            @media only screen and (max-width: 600px) {
-               
-                P {
-                    font-size: 4vw;
-                }
-
-                h1 {
-                    font-size: 8vw;
-                }
-                 .index{
-                    top:168px;
-                    position: fixed; margin-top: -130px; margin-left: 31px;
-                }
-                .space{
-                    padding-left: 0px;
-                    padding-right: 0px;
-                }
-
-                }
-
-
-
-           
-
-            </style>
-            <!-- CSS only -->
+        <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="resume.css" />
+        <!-- CSS only -->
 
     </head>
-    <body style="margin:0px 0px 30px 0px">
+    <body>
 
 
-        <NAV style="position:sticky; top:25px; margin-right:25px;font-size:20px;">
-            <P ALIGN="RIGHT">
-            <a href="index.html">Inicio</a> |
-            <a href="profile.html">Perfil</a> |
-            <a href="resume.html">CV</a> |
-            <!-- <a href="portfolio2.html">Portafolio</a> | -->
-            <a href="contact.html">Contacto</a>   </P> 
-        </NAV>
+        <nav>
+            <div class="navdiv">
+                <select id="dropdown">
+                    <option value="resume es"> Espa&ntilde;ol</option>
+                    <option value="resume en"> English</option>
+                    <option value="resume pt"> Portugu&ecirc;s</option>
+                </select>
+                <div class="navlink">
+                    <a href="index.html">Inicio</a> |
+                    <a href="profile.html">Perfil</a> |
+                    <a href="resume.html">CV</a> |
+                    <!-- <a href="portfolio2.html">Portafolio</a> | -->
+                    <a href="contact.html">Contacto</a>
+                </div>
+            </div> 
+        </nav>
 
 
     <!-- <div style="background-color: #E7D4C0;
         color:black;"> -->
-        <div style="color:black;">
-        <h1><center>Fernando Cerda - MBA, MSc.</center></h1>
-        <div><center><h3>Correo Electronico :<th><a HREF="mailto:f_cerda@hotmail.com"> f_cerda@hotmail.com</a> -  Telefono :<a HREF="skype:fcerda0336?call"> +1 (403) 630-9499</a> - LinkedIn :<a HREF="https://www.linkedin.com/in/fernando-cerda" target="_blank">www.linkedin.com</a></th></h3></center> 
+        <div>
+        <h1>Fernando Cerda - MBA, MSc.</h1>
+        <div>
+            <h3>
+                Correo Electronico :
+                <th>
+                    <a HREF="mailto:f_cerda@hotmail.com"> f_cerda@hotmail.com</a> -  
+                    Telefono :<a HREF="skype:fcerda0336?call"> +1 (403) 630-9499</a> - 
+                    LinkedIn :<a HREF="https://www.linkedin.com/in/fernando-cerda" 
+                    target="_blank"
+                    >www.linkedin.com</a
+                    >
+                </th>
+            </h3> 
         </div>
-        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-        <hr style="height:10px;border-width:0;color:gray;background-color:gray">
+        <hr 
+        style="height:2px;
+        border-width:0;
+        color:gray;
+        background-color:gray
+        "
+        />
+        <hr 
+        style="height:10px;
+        border-width:0;
+        color:gray;
+        background-color:gray
+        "
+        />
     </div>
 
-    <select class="index" style="position:fixed;margin-top:-150px;margin-left:31px;" id="dropdown">
-            <option value="resume es"> Espa&ntilde;ol</option>
-            <option value="resume en"> English</option>
-            <option value="resume pt"> Portugu&ecirc;s</option>
-    </select>
-        <h3 style="margin:0;"><center>PERFIL PROFESIONAL</center></h3>
+    
+        <h3>PERFIL PROFESIONAL</h3>
 
         
     <div class="space" style="padding:0px 40px; text-align: justify;font-size: 16px;">Profesional experimentado con un solido conocimiento de la evaluaci&oacute;n de projectos. Excelente capacidad de resoluci&oacute;n de problemas, trabajo en equipo y con perfil de l&iacute;der. Multiling&uuml;e en ingl&eacute;s, espa&ntilde;ol, portugu&eacute;s y franc&eacute;s b&aacute;sico. Un profesional entusiasta, trabajador y competente con una trayectoria comprobada en el logro de resultados. Comunicador nato y pensador anal&iacute;tico, con un fuerte compromiso con la seguridad y alta &eacute;tica laboral.
     </div>
 
             
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-
-
-    <!-- <h3 style="margin:0;"><center>SELECTED ACCOMPLISHMENTS</center></h3>
-
-
-
-    <h3 id="project-management" style="margin-left:100px; margin-right: 100px;margin-top:0.5;margin-bottom:0;">Project Management</h3>
-        
-
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10; text-align: justify;">   Supervised and coordinated simultaneous operation increasing efficiency in operation turnaround, liasson with clients regarding project strategies.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Supervised and coordinated all aspect of the project planning starting from seismic data acquisition to data processing.</li>
-        <li style="margin-bottom:10px; text-align: justify;">  Coordinated services in different region (Alaska, Gulf of Mexico, North Sea, Latin America) for the preparation, design and optimization of data acquisition and geometry. </li>
-        <li style="margin-bottom:10px; text-align: justify;">  Primary contact for any inquiries regarding expert knowledge and understanding of the economic implications of any decision regarding data acquisition.   </li>
-    </ul> -->
+    <hr 
+        style="height:2px;border-width:0;color:gray;background-color:gray"
+    />
 
 
 
-     <!--    <h3 style="margin-left:100px; margin-bottom:0; margin-right:100px">Leadership & Training</h3>
-        
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10px; text-align: justify;">   Provided training on M & E and data analysis tools and evaluation of data quality, to track the progress of all component of the project.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Participated in all aspect of project end providing leadership for effective planning including assisting in developing of data collection tools.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Lead on the development, execution and evaluation of regional studies in conjunction with other service companies in Calgary. </li>
-    </ul>
 
-
-        <h3 style="margin-left:100px; margin-bottom:0; margin-right:100px">Data analysis and evaluation</h3>
-        
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10px; text-align: justify;">   Assisted in coordinating across different components of the project to ensure effective implementation of M & E work plan and targets throughout project implementation.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Assisted in the development of acquisition templates and proposed strategic ideas to optimize future projects.</li>
-        <li style="margin-bottom:10px; text-align: justify;">   Established and maintained feedback mechanisms for M & E results within all components of the project.</li>
-    </ul>
- -->
-<!-- 
-        <h3 style="margin-left:100px; margin-bottom:0;">Technical Skills</h3>
-        
-    <ul style="margin-left:100px; margin-right: 100px;">
-        <li style="margin-bottom:10px; text-align: justify;">   Worked with several packages and programming software such as SAS, R, Rcmdr. Access, DHIS2 for database in windows and Linux system.</li> 
-    </ul> -->
-
-        <h3 style="margin-bottom:10px;"><center>CONOCIMIENTOS T&Eacute;CNICOS</center></h3>
-        <div class="row frame" style="padding: 20px;">
+        <h3>CONOCIMIENTOS T&Eacute;CNICOS</h3>
+        <div class="row frame">
   <div class="column frame">
-    <center><h3 style="margin-top:-30px;">Lenguages de Programacion</h3></center>
+    <h3 style="margin-top:-30px;">Lenguages de Programacion</h3>
     
     <p style="text-align: center;">MATLAB / R / Python/ SAS.</p>
      
@@ -210,7 +94,7 @@ a:hover{color:white}
   </div>
 
   <div class="column frame">
-    <center><h3 style="margin-top:-30px;">An&aacute;lisis de Reservorios</h3></center>
+    <h3 style="margin-top:-30px;">An&aacute;lisis de Reservorios</h3>
 
     <p style="text-align: center;">AVO/Modelado F&iacute;sico de Rocas</p>
 
@@ -223,7 +107,7 @@ a:hover{color:white}
   </div>
 
   <div class="column frame">
-    <center><h3 style="margin-top:-30px;">Adquisici&oacute;n de Datos</h3></center>
+    <h3 style="margin-top:-30px;">Adquisici&oacute;n de Datos</h3>
     
     <p style="text-align: center;">Adquisici&oacute;n S&iacute;smica </p> 
 
@@ -241,17 +125,28 @@ a:hover{color:white}
 
 
 
-        <h3 style="margin-bottom:10px;"><center>EXPERIENCIA PROFESIONAL</center></h3>
+        <h3 style="margin-bottom:10px;">EXPERIENCIA PROFESIONAL</h3>
         
-    <div class=mark><center>
+    <div>
         <figure>
-        <a href="https://care.ca/" target="_blank"><img src="../img/CUSO.png" alt="Cuso-Care-logo" style="width:192px;height:92px;"></a>
-        <br></br>
-        <figcaption><center><b>CARE Canada. 2019 - 2021</b></center></figcaption>
-        <figcaption><center><b>Asesor de Monitoreo y Evaluaci&oacute;n</b></center></figcaption>
-        <figcaption><center><b>Maxixe, Inhambane, Mozambique</b></center></figcaption>
+        <a href="https://care.ca/" target="_blank"
+        ><img 
+        src="../img/CUSO.png" 
+        alt="Cuso-Care-logo" 
+        style="width:192px;height:92px;"
+        /></a>
+        <br />
+        <figcaption>
+            <p class="bold">CARE Canada. 2019 - 2021</b>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Asesor de Monitoreo y Evaluaci&oacute;n</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Maxixe, Inhambane, Mozambique</p>
+        </figcaption>
         </figure>
-    <ul class="space" style="margin-left:40px; margin-right: 40px;">
+    <ul class="space">
         <li style="margin-bottom:10; text-align: justify;">   Particip&eacute; en todos los aspectos de la planificaci&oacute;n final del proyecto, incluida la asistencia en el desarrollo de herramientas y m&eacute;todos de recopilaci&oacute;n de datos,</li>
         <li style="margin-bottom:10px; text-align: justify;">   Ayud&eacute; a coordinar los diferentes componentes del proyecto para asegurar la implementaci&oacute;n efectiva del plan de trabajo de M&E, asi como tambien los objetivos durante la implementaci&oacute;n del proyecto.</li>
         <li style="margin-bottom:10px; text-align: justify;">   Capacit&eacute; en herramientas de M&E y evaluaci&oacute;n de la calidad de los datos, evaluando el progreso de todos los componentes del proyecto, promoviendo una cultura de aprendizaje interactivo. </li>
@@ -259,12 +154,24 @@ a:hover{color:white}
     </ul>
 
         <figure>
-        <a href="https://www.repsol.us/en/index.cshtml" target="_blank"><img src="../img/repsol.png" alt="Repsol-logo-logo" style="width:192px;height:92px;"></a><br></br>
-        <figcaption><center><b>Repsol. 2011 - 2014</b></center></figcaption>
-        <figcaption><center><b>Geof&iacute;sico Senior - Adquisici&oacute;n Sismica</b></center></figcaption>
-        <figcaption><center><b>The Woodlands, Texas, USA</b></center></figcaption>
+        <a href="https://www.repsol.us/en/index.cshtml" target="_blank"
+        ><img 
+        src="../img/repsol.png" 
+        alt="Repsol-logo-logo" 
+        style="width:192px;height:92px;"
+        /></a>
+        <br />
+        <figcaption>
+            <p class="bold">Repsol. 2011 - 2014</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Geof&iacute;sico Senior - Adquisici&oacute;n Sismica</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">The Woodlands, Texas, USA</b>
+        </figcaption>
         </figure>
-    <ul class="space" style="margin-left:40px; margin-right: 40px;">
+    <ul class="space">
         <li style="margin-bottom:10px; text-align: justify;">   Coordin&eacute; servicios en Alaska, Golfo de M&eacute;xico, Mar del Norte y Sudam&eacute;rica. Elaboraci&oacute;n, dise&ntilde;o y optimizaci&oacute;n de geometr&iacute;as de adquisici&oacute;n de datos s&iacute;smicos 2D / 3D as&iacute; como VSP y cable de fondo marino para todos los grupos de inter&eacute;s de Repsol.  </li>
         <li style="margin-bottom:10px; text-align: justify;">   A cargo de la preparaci&oacute;n de Licitaciones, asesorando y reportando a los equipos de exploraci&oacute;n y partes interesadas sobre las operaciones s&iacute;smicas y procesamiento de datos. Fui el contacto principal para las consulta relacionada con las implicaciones econ&oacute;micas de cualquier decisi&oacute;n relacionada con la adquisici&oacute;n s&iacute;smica en los proyectos a cargo. </li>
         <li style="margin-bottom:10px; text-align: justify;">   Desarroll&eacute; y supervis&eacute; la adquisici&oacute;n s&iacute;smica diaria de proyectos para todos los Grupos de Inter&eacute;s de Repsol y facilit&eacute; la discusi&oacute;n con los grupos de operaciones y procesamiento de datos, logrando una tasa de &eacute;xito superior al 90% en todos los programas de adquisiciones.</li>
@@ -273,65 +180,108 @@ a:hover{color:white}
 
         
         <figure>
-        <center><a href="https://www.pgs.com/" target="_blank"><img src="../img/pgs.png" alt="PGS-logo" style="width:92px;height:128px;"></a></center><br>
-        <figcaption><center><b>PGS -Petroleum Geo Services. 2010 - 2011</b></center></figcaption>
-        <figcaption><center><b>Geof&iacute;sico Senior</b></center></figcaption>
-        <figcaption><center><b>Weybridge, Surrey, UK</b></center></figcaption>
+        <a href="https://www.pgs.com/" target="_blank"
+        ><img 
+        src="../img/pgs.png" 
+        alt="PGS-logo" 
+        style="width:92px;height:128px;"
+        /></a>
+        <br />
+        <figcaption>
+            <p class="bold">PGS -Petroleum Geo Services. 2010 - 2011</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Geof&iacute;sico Senior</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Weybridge, Surrey, UK</p>
+        </figcaption>
         </figure>
-    <ul class="space" style="margin-left:40px; margin-right: 40px;">
+    <ul class="space">
         <li style="margin-bottom:10px; text-align: justify;">   Encargado de la interpretaci&oacute;n s&iacute;smica integrada, utilizando registros de pozos, atributos s&iacute;smicos para identificar anomal&iacute;as tanto de la litolog&iacute;a como tambie de hidrocarburos. </li>
         <li style="margin-bottom:10px; text-align: justify;">   Hize interpretaci&oacute;n estratigr&aacute;fica utilizando s&iacute;smica, en la busqueda de trampas en facies carbonatadas y cl&aacute;sticas en la Cuenca del Mediterr&aacute;neo Oriental utilizando datos proporcionados por Petroleum Geo-Services Ltd. con el proposito de dar valor agregado a la sismica.   </li>
     </ul>
 
         <figure>
-        <a href="https://www.slb.com/" target="_blank"><img src="../img/slb.png" alt="slb-logo" style="width:192px;height:92px;"></a>
-        <br></br>
-        <figcaption><center><b>Schlumberger - WesternGeco. 2008 - 2010</b></center></figcaption>
-        <figcaption><center><b>Lider de Grupo - Centro de Procesamiento Perth</b></center></figcaption>
-        <figcaption><center><b>Perth, W. Australia</b></center></figcaption>
+        <a href="https://www.slb.com/" target="_blank"
+        ><img 
+        src="../img/slb.png" 
+        alt="slb-logo" 
+        style="width:192px;height:92px;"
+        /></a>
+        <br />
+        <figcaption>
+            <p class="bold">Schlumberger - WesternGeco. 2008 - 2010</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Lider de Grupo - Centro de Procesamiento Perth</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Perth, W. Australia</p>
+        </figcaption>
         </figure>
-    <ul class="space" style="margin-left:40px; margin-right: 40px;">
+    <ul class="space">
         <li style="margin-bottom:10px; text-align: justify;"> Realic&eacute; pruebas de adquisici&oacute;n y proporcion&eacute; selecci&oacute;n de par&aacute;metros para el procesamiento de datos s&iacute;smicos necesarios para la atenuaci&oacute;n de m&uacute;ltiple, t&eacute;cnicas de atenuaci&oacute;n de ruido.  Tambien interpret&eacute; las velocidades en gathers requeridas para la migraci&oacute;n, la construcci&oacute;n del modelo de velocidad y c&aacute;lculos de residual moveout utilizando la metodolog&iacute;a H. Swan, la migraci&oacute;n en tiempo pre y post apilado.</li> 
         <li style="margin-bottom:10px; text-align: justify;">  Supervis&eacute; y coordin&eacute; el procesamiento de datos s&iacute;smicos 3D terrestres y marinos para los proyectos multicliente. Estandarice los flujos de procesamiento para atenuaci&oacute;n de ruido, mejora de se&ntilde;al y t&eacute;cnicas de supresi&oacute;n de m&uacute;ltiple.  Esto aumentaron la productividad en un 20%.    </li>
         <li style="margin-bottom:10px; text-align: justify;">  Fui mentor de 2 geof&iacute;sico de campo en t&eacute;cnicas de reducci&oacute;n de ruido, atenuaci&oacute;n de m&uacute;ltiple e interpretaci&oacute;n de velocidad utilizando los gathers. </li>
 
     </ul>
-    <figcaption><center><b>Analista de Reservorios - Schlumberger - WesternGeco. 2001 - 2008</b></center></figcaption>
-    <figcaption><center><b>Houston, Texas, USA</b></center></figcaption>
-    <ul class="space" style="margin-left:40px; margin-right: 40px;">
+    <figcaption>
+        <p class="bold">Analista de Reservorios - Schlumberger - WesternGeco. 2001 - 2008</p>
+    </figcaption>
+    <figcaption>
+        <p class="bold">Houston, Texas, USA</p>
+    </figcaption>
+    <ul class="space">
         <li style="margin-bottom:10px; text-align: justify;">  Realic&eacute; estudios geol&oacute;gicos y geof&iacute;sicos para posibles proyectos regionales en Am&eacuterica del Norte y del Sur (WesternGeco Spec data - Integrated Solution Group). Trabaj&eacute en estrecha colaboraci&oacute;n con Investigaci&oacute;n y desarrollo probando las &uacute;ltimas tecnolog&iacute;as en procesamiento de datos s&iacute;smicos en tiempo e im&aacute;genes de profundidad, identifiqu&eacute oportunidades de mejora y se propuso modificaciones/mejoras para la adaptaci&oacute;n que result&oacute; en una mayor efectividad para procesamientos futuros. </li> 
         <li style="margin-bottom:10px; text-align: justify;">  Realic&eacute; inversi&oacute;n s&iacute;smica 2D y 3D pre y post apilada, utilizando an&aacute;lisis petrof&iacute;sico y correlaci&oacute;n de registros de pozos, entregando como resultados propiedades &uacute;tiles del  reservorio generando un valor agregado a la librer&iacute;a de Schlumberger.  </li> 
         <li style="margin-bottom:10px; text-align: justify;">  Desarroll&eacute; varios proyectos en Sudam&eacute;rica (Brasil y Argentina-Patagonia) utilizando datos s&iacute;smicos, impedancia s&iacute;smica derivada de la inversi&oacute;n e informaci&oacute;n de pozos claves en &aacute;reas de inter&eacutes para el departamento de atenci&oacute;n al cliente de WesternGeco, lo que increment&oacute; las ventas de WesternGeco en m&aacute;s del 20%.   </li>
         <li style="margin-bottom:10px; text-align: justify;">  Entren&eacute; y asesor&eacute; a geof&iacute;sicos de reservorios sobre las t&eacute;cnicas en an&aacute;lisis de reservorio y sus limitaciones. </li>
         <li style="margin-bottom:10px; text-align: justify;">  Desarroll&eacute; y aun mantengo relaciones s&oacute;lidas con contratistas y consultores geof&iacute;sicos externos. </li>
     </ul>
-    </center>
     </div>
 
-    <br></br>
-    <br></br>
+    <br />
+    <br />
 
 
 
-        <h3 style="margin-bottom:10px;"><center>EDUCACI&#211;N</center></h3>
+        <h3 style="margin-bottom:10px;">EDUCACI&#211;N</h3>
 
-        <div class=mark1><center>
+        <div class="edulogo">
             <figure>
-        <a href="https://www.evolveu.ca/" target="_blank"><img src="https://pbs.twimg.com/profile_images/956195352528371712/XYRz0_dl_400x400.jpg" alt="Simply Easy Learning" float:left; width="120"
-         height="120"></a>
-        <br></br>
-        <figcaption><center><b>EvolveU.</b></center></figcaption>
-        <figcaption><center><b>Desarrollo Full Stack.</b></center></figcaption>
+        <a href="https://www.evolveu.ca/" target="_blank"
+        ><img src="https://pbs.twimg.com/profile_images/956195352528371712/XYRz0_dl_400x400.jpg" 
+        alt="Simply Easy Learning" 
+        float:left; 
+        width="120"
+        height="120"></a>
+        <br />
+        <figcaption>
+            <p class="bold">EvolveU.</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold">Desarrollo Full Stack.</p>
+        </figcaption>
         </figure>
 
 
 
         <figure>
-        <a href="https://haskayne.ucalgary.ca/" target="_blank"><img src="https://images.all-free-download.com/images/graphiclarge/university_of_calgary_87471.jpg" alt="Simply Easy Learning" float:left; width="120"
-         height="120"></a>
-        <br></br>
-        <figcaption><center><b>University of Calgary.</b></center></figcaption>
-        <figcaption><center><b> Grado de Master en Administraci&oacute;n de Empresas (MBA).</b></center></figcaption>
+        <a href="https://haskayne.ucalgary.ca/" target="_blank"
+        ><img 
+        src="https://images.all-free-download.com/images/graphiclarge/university_of_calgary_87471.jpg" 
+        alt="Simply Easy Learning" 
+        float:left; 
+        width="120"
+        height="120"></a>
+        <br />
+        <figcaption>
+            <p class="bold">University of Calgary.</b>
+        </figcaption>
+        <figcaption>
+            <p class="bold"> Grado de Master en Administraci&oacute;n de Empresas (MBA).</p>
+        </figcaption>
         </figure>
 
 
@@ -339,8 +289,12 @@ a:hover{color:white}
         <a href="https://www.jsg.utexas.edu/" target="_blank"><img src="https://2012.igem.org/wiki/images/1/16/University_of_texas_logo.jpg" alt="Simply Easy Learning" width="120"
          height="120"></a>
         <br></br>
-        <figcaption><center><b> The University of Texas at Austin.</b></center></figcaption>
-        <figcaption><center><b> Grado de Master en Geologia y Geofisica (MSc)</b></center></figcaption>
+        <figcaption>
+            <p class="bold"> The University of Texas at Austin.</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold"> Grado de Master en Geologia y Geofisica (MSc)</p>
+        </figcaption>
         </figure>
 
 
@@ -348,8 +302,12 @@ a:hover{color:white}
         <figure>
         <a href="https://www.mines.edu/" target="_blank"><img src="../img/CSMLOGO.jpeg" alt="Simply Easy Learning" width="120" height="120"></a>
         <br></br>
-        <figcaption><center><b> Colorado School of Mines.</b></center></figcaption>
-        <figcaption><center><b> BSc. en Ingeneria Geofisica</b></center></figcaption>
+        <figcaption>
+            <p class="bold"> Colorado School of Mines.</p>
+        </figcaption>
+        <figcaption>
+            <p class="bold"> BSc. en Ingeneria Geofisica</p>
+        </figcaption>
         </figure>
 
 
@@ -370,21 +328,21 @@ a:hover{color:white}
 
     
         <center><h3>Idiomas</h3></center>
-        <div class=mark><center>
+        <div class="mark">
         <!-- <ul> -->
-            <a><b>Ingles</b></a>  ||
-            <a><b>Castellano</b></a>  ||
-            <a><b>Portugues</b></a> 
+            <p class="bold">Ingles</p>  ||
+            <p class="bold">Castellano</p>  ||
+            <p class="bold">Portugues</p> 
             <!-- <a><b>Afrikaans</b></a> -->
         <!-- </ul> -->
-        </center></div>
-        <br></br>
+        </div>
+        <br />
 
         
         <a href="index.html">
-            <div class=mark><center>
+            <div class="mark">
                 <h3>Volver a la pagina principal</h3>
-            </center></div>
+            </div>
         </a>
 
 
