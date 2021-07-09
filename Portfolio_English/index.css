@@ -13,7 +13,7 @@ body {
   background-image: url("Marine.PNG");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:cover;
+  background-size: cover;
   /* background-position: center center; */
 }
 nav {
@@ -32,19 +32,14 @@ select{
   max-height: 1.5em;
 }
 
-a {
-  color: white;
-}
-a:visited {
-  color: white;
-}
-a {
-  color: white;
-}
-a:hover {
-  color: magenta;
-}
+a{
+      color:white;
+  }
+  a:visited{color:white}
+  a{color:white}
+  a:hover{color:magenta}
 
+  
 h1 {
   font-size: 70px;
   text-align: center;
